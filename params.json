@@ -1,0 +1,6 @@
+{
+  "name": "hglasso",
+  "tagline": "Implementation of Hub graphical lasso in Matlab ",
+  "body": "# Learning graphical models with hubs - hglasso\r\nImplementation of Hub graphical lasso in Matlab for Gaussian network case. \r\n\r\nThis is an implementation of the paper 'Learning Graphical Models With Hubs' in Matlab. [Link](http://jmlr.org/papers/volume15/tan14b/tan14b.pdf)  \r\n\r\nRun sample_program.m to see how a demo works. \r\n\r\nSample result for inferring a network of 100 variables using 50 data samples. The network contains 4 hubs. \r\n\r\n```matlab\r\nOriginal Network Information: \r\nn: 50  p: 100  \r\nTrue Hub nodes are : 40  65  33  77\r\nsparsity: 0.99  hub sparsity: 0.10  hub number: 4 \r\n\r\nParameters set as :  \r\nlamda1: 0.30  lamda2: 0.30  lamda3: 1.50  \r\n\r\nResult : \r\nEstimated Hub nodes : 33  40  65  77\r\nTotal true edges: 407\r\nTotal estimated edges: 396\r\nEstimated correct edges: 201\r\nProp of correctly estimated hub edges: 0.542936\r\nProp of correctly estimated hub nodes: 1.000000\r\nSum of squared errors: 36.696998\r\n\r\n\r\n```\r\n\r\n![Result](result.png)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
