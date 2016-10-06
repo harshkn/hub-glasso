@@ -1,0 +1,11 @@
+fprintf( 'Parameters  \n');
+fprintf( 'lamda1: %.2f  lamda2: %.2f  lamda3: %.2f  \n',lamda1,lamda2,lamda3);
+fprintf( 'n: %d  p: %d  \n',n,p);
+fprintf( 'sparsity: %.2f  hub sparsity: %.2f  hub number: %d \n',sparsity,hub_sparsity, hub_number);
+fprintf( 'Total true edges: %d\n',out.total_true_edges);
+fprintf( 'Total estimated edges: %d\n',out.total_est_edges);
+fprintf( 'Estimated correct edges: %d\n',out.est_correct_edges);
+fprintf( 'Prop of correctly estimated hub edges: %f\n',out.prop_1);
+fprintf( 'Prop of correctly estimated hub nodes: %f\n',out.prop_2);
+fprintf( 'Sum of squared errors: %f\n',out.sse);
+fprintf( '\n\n\n');
