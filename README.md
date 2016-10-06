@@ -28,4 +28,4 @@ Sum of squared errors: 36.696998
 
 ```
 
-![Result](result.eps)
+![Result](result.png)
